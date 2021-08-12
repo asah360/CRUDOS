@@ -1,0 +1,30 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+rest:
+  cors:
+    allowed-origins: "*"
+
+#spring:
+#  jooq:
+#    sql-dialect: POSTGRES
+#  datasource:
+#    url: jdbc:postgresql://localhost/php-crud-data
+#    username: php-crud-data
+#    password: php-crud-data
+
+spring:
+  jooq:
+    sql-dialect: MYSQL
+  datasource:
+    url: jdbc:mysql://localhost:3306/twms
+    username: asah
+    password: Torque@360
+
+#spring:
+#  jooq:
+#    sql-dialect: H2
+#  datasource:
+#    url: jdbc:h2:mem:test

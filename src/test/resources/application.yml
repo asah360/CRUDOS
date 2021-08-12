@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  contextPath: /
+
+spring:
+  jooq:
+    sql-dialect: H2
+  datasource:
+    url: jdbc:h2:mem:test
